@@ -1,5 +1,5 @@
 {
-  "name": "Telegram UserButt",
+  "name": "Azura",
   "description": "[UserButt] A modular Telegram userbot running on Python 3.7+ with an sqlalchemy database.",
   "logo": "https://i.ibb.co/KhLWz5P/photo-2020-02-28-22-03-27.jpg",
   "keywords": [
@@ -9,7 +9,7 @@
     "modular",
     "productivity"
   ],
-  "repository": "https://github.com/keselekpermen69/userbutt",
+  "repository": "https://github.com/Tabah6/userbutt",
   "website": "https://telegra.ph/How-to-host-a-Telegram-Userbot-11-02",
   "success_url": "https://t.me/userbotindo",
   "stack": "container",
@@ -36,7 +36,7 @@
     },
     "UPSTREAM_REPO_URL": {
       "description": "In case you maintain a fork, add your repo URL here.",
-      "value": "https://github.com/KeselekPermen69/UserButt",
+      "value": "https://github.com/Tabah6/UserButt",
       "required": false
     },
     "COUNTRY": {
