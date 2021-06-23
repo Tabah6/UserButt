@@ -18,10 +18,10 @@ from userbot.events import register
 # ========================= CONSTANTS ============================
 DEF_UNAPPROVED_MSG = (
     "Sorry,.\n"
-    "Aing Belum Online.\n"
+    "Saya Belum Online.\n"
     "Tunggu Sebentar lagi Aing Akan Online Pliis Jangan Spam...\n"
-    "@Tabah_Rs\n\n"
-    "*Aku Bot By:ＴａｂａｈＭｉz ｕｋａ.")
+    " @Tabah_Rs \n\n"
+    "*Bot.By:Ｔａｂａｈ||Ａｚｕｒａ.")
 # =================================================================
 
 
