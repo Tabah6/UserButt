@@ -217,7 +217,7 @@ async def amireallyalive(alive):
               f"🛠 `Running on  :` {TabahＡｚｕｒａ}\n"
               f"🧩 `Bot By      :` {Tabah_Rs}\n"
 
-              "== ===My Repo Work On Telethon == ===              "`== == == == == == == == == == == == == == == ===`")
+              "============MyRepo By:Tabah=========`")
 
     if ALIVE_LOGO:
         try:
