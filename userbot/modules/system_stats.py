@@ -215,7 +215,7 @@ async def amireallyalive(alive):
               f"⚙️ `My Grups    :` {https://t.me/azurafiles}\n"
               "`---------------------------------\n`"
               f"🛠 `Running on  :` {TabahＡｚｕｒａ}\n"
-              f"🧩 `Bot By      :` {@Tabah_Rs}\n"
+              f"🧩 `Bot By      :` {Tabah_Rs}\n"
 
               "== ===My Repo Work On Telethon == ===              "`== == == == == == == == == == == == == == == ===`")
 
