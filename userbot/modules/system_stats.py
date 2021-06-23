@@ -211,15 +211,13 @@ async def amireallyalive(alive):
     output = ("`At your services...`\n"
               "`=================================`\n"
               f"👤 `User        :` {Tabah}\n"
-              f"🐍 `Python      :` v{python_version()}\n"
-              f"⚙️ `Telethon    :` v{version.__version__}\n"
+              f"🐍 `My Repo     :` {https://github.com/Tabah6/UserButt}\n"
+              f"⚙️ `My Grups    :` {https://t.me/azurafiles}\n"
               "`---------------------------------\n`"
               f"🛠 `Running on  :` {TabahＡｚｕｒａ}\n"
-              f"🧩 `Loaded modules :`v{ (modules)}\n"
-                🙂 `Bot By: `v{ @ Tabah_Rs}\n"
-                😁 `My User: `v{ @ Ａｚｕｒａ}\n"
-                ✍️ `My Repo: `v{https: // github.com / Tabah6 / UserButt}\n"
-               "=====My Repo Work On Telethon=====`")
+              f"🧩 `Bot By      :` {@Tabah_Rs}\n"
+            
+               "=====My Repo Work On Telethon=====
 
                "`=================================`")
 
