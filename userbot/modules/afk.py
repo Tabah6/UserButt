@@ -12,7 +12,7 @@ from random import choice, randint
 from telethon.events import StopPropagation
 
 from userbot import (
-    AFKREASON,
+    AFKSibuk,
     COUNT_MSG,
     CMD_HELP,
     ISAFK,
@@ -61,7 +61,7 @@ async def set_afk(afk_e):
     afk_e.text
     string = afk_e.pattern_match.group(1)
     global ISAFK
-    global AFKREASON
+    global AFKSibuk
     global USER_AFK  # pylint:disable=E0602
     global afk_time  # pylint:disable=E0602
     global afk_start
@@ -90,7 +90,7 @@ async def type_afk_is_not_true(notafk):
     global ISAFK
     global COUNT_MSG
     global USERS
-    global AFKREASON
+    global AFKSibuk
     global USER_AFK  # pylint:disable=E0602
     global afk_time  # pylint:disable=E0602
     global afk_start
