@@ -116,7 +116,7 @@ ANTI_SPAMBOT = sb(os.environ.get("ANTI_SPAMBOT", "False"))
 ANTI_SPAMBOT_SHOUT = sb(os.environ.get("ANTI_SPAMBOT_SHOUT", "False"))
 
 # Default .alive name
-ALIVE_NAME = TabahＡｚｕｒａ("ALIVE_NAME", None)
+ALIVE_NAME = os.environ.get("ALIVE_NAME", None)
 
 # Default .alive logo
 ALIVE_LOGO = os.environ.get("ALIVE_LOGO", None)
