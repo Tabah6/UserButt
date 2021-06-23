@@ -222,7 +222,7 @@ COUNT_PM = {}
 LASTMSG = {}
 CMD_HELP = {}
 ISAFK = False
-AFKREASON = None
+AFKSibuk = None
 
 
 def paginate_help(page_number, loaded_modules, prefix):
