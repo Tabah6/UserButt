@@ -220,19 +220,19 @@ async def amireallyalive(alive):
               f"😁 `My User.       :`{@Ａｚｕｒａ}\n"
               f"✍️ `My Repo.       :`{https://github.com/Tabah6/UserButt}\n"
                "=====My Repo Work On Telethon=====`")
-             
+
                "`=================================`")
-             
+
     if ALIVE_LOGO:
         try:
-            logo = ALIVE_LOGO
+            logo=ALIVE_LOGO
             await alive.delete()
-            msg = await bot.send_file(alive.chat_id, logo, caption=output)
+            msg=await bot.send_file(alive.chat_id, logo, caption = output)
         except MediaEmptyError:
-            msg = await alive.edit(output + "\n\n *`The provided logo is invalid."
+            msg=await alive.edit(output + "\n\n *`The provided logo is invalid."
                                    "\nMake sure the link is directed to the logo picture`")
     else:
-        msg = await alive.edit(output)
+        msg=await alive.edit(output)
     await asyncio.sleep(45)
     try:
         await msg.delete()
@@ -240,24 +240,24 @@ async def amireallyalive(alive):
         return
 
 
-@register(outgoing=True, pattern=r"\.aliveu")
+@ register(outgoing = True, pattern = r"\.aliveu")
 async def amireallyaliveuser(username):
     """For .aliveu command, change the username in the .alive command."""
-    message = username.text
-    output = '.aliveu [new user without brackets] nor can it be empty'
+    message=username.text
+    output='.aliveu [new user without brackets] nor can it be empty'
     if message != '.aliveu' and message[7:8] == ' ':
-        newuser = message[8:]
+        newuser=message[8:]
         global DEFAULTUSER
-        DEFAULTUSER = newuser
-        output = 'Successfully changed user to ' + newuser + '!'
+        DEFAULTUSER=newuser
+        output='Successfully changed user to ' + newuser + '!'
     await username.edit("`" f"{output}" "`")
 
 
-@register(outgoing=True, pattern=r"\.resetalive$")
+@ register(outgoing = True, pattern = r"\.resetalive$")
 async def amireallyalivereset(ureset):
     """For .resetalive command, reset the username in the .alive command."""
     global DEFAULTUSER
-    DEFAULTUSER = str(ALIVE_NAME) if ALIVE_NAME else uname().node
+    DEFAULTUSER=str(ALIVE_NAME) if ALIVE_NAME else uname().node
     await ureset.edit("`" "Successfully reset user for alive!" "`")
 
 

@@ -72,7 +72,6 @@ async def set_afk(afk_e):
     start_1 = datetime.now()
     afk_start = start_1.replace(microsecond=0)
     if string:
-        AFKREASON = string
         await afk_e.edit(f"Going AFK!\
         \nReason: `{string}`")
     else:
@@ -125,7 +124,6 @@ async def type_afk_is_not_true(notafk):
                     )
         COUNT_MSG = 0
         USERS = {}
-        AFKREASON = None
 
 
 @register(incoming=True, disable_edited=True)
@@ -173,7 +171,8 @@ async def mention_afk(mention):
         is_bot = False
         if (sender := await mention.get_sender()):
             is_bot = sender.bot
-            if is_bot: return  # ignore bot
+            if is_bot:
+                return  # ignore bot
 
         chat_obj = await mention.client.get_entity(mention.chat_id)
         chat_title = chat_obj.title
