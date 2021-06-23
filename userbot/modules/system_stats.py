@@ -216,9 +216,9 @@ async def amireallyalive(alive):
               "`---------------------------------\n`"
               f"🛠 `Running on  :` {TabahＡｚｕｒａ}\n"
               f"🧩 `Loaded modules :`v{ (modules)}\n"
-                🙂 `Bot By         :`v{@Tabah_Rs}\n"
-                😁 `My User        :`v{@Ａｚｕｒａ}\n"
-                ✍️ `My Repo        :`v{https://github.com/Tabah6/UserButt}\n"
+                🙂 `Bot By: `v{ @ Tabah_Rs}\n"
+                😁 `My User: `v{ @ Ａｚｕｒａ}\n"
+                ✍️ `My Repo: `v{https: // github.com / Tabah6 / UserButt}\n"
                "=====My Repo Work On Telethon=====`")
 
                "`=================================`")
